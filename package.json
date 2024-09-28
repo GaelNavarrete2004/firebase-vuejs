@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "deploy": "node scripts/gh-pages-deploy.js"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -19,8 +18,7 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "execa": "latest"
+    "@vue/cli-service": "~5.0.0"
   },
   "browserslist": [
     "> 1%",
